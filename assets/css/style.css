@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
 
+html
+{
+    font-size: 16px;
+}
 /* CSS RESET */
 *
 {
@@ -31,13 +35,13 @@ p
 {
     overflow: auto;
     width: 85%;
-    margin: 1em auto;
+    margin: 1rem auto;
 }
 
 .nav h1
 {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2rem;
     width: 50%;
     float: left;
 }
@@ -53,13 +57,13 @@ p
     width: 50%;
     float:right;
     text-align: right;
-    padding-top: 1em;
+    padding-top: 1rem;
 }
 
 .nav ul li
 {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 .nav ul li a
@@ -95,7 +99,7 @@ p
 {
     text-transform: uppercase;
     color: #c7a17a;
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 .banner-text h2 span
@@ -115,9 +119,9 @@ p
     background-color: #312a26;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    margin-top: 1em;     
+    margin-top: 1rem;     
     display: inline-block;
-    padding: 1em;
+    padding: 1rem;
 }
 
 /* ads section */
@@ -126,7 +130,7 @@ p
 {
     overflow: auto;
     width: 87.8%;
-    margin: 4em auto;
+    margin: 4rem auto;
 }
 
 .ads-item
@@ -152,8 +156,8 @@ p
 {
     text-transform: uppercase;
     color: #fff;
-    font-size: 2em;
-    line-height: 1.2em;
+    font-size: 2rem;
+    line-height: 2.5rem;
     text-shadow: 3px 3px 6px #312a26;
 }
 
@@ -165,7 +169,7 @@ p
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     text-shadow: 3px 3px 5px #312a26;
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 .ads-item1
@@ -231,13 +235,13 @@ p
 .merch
 {
     width: 86%;
-    margin: 4em auto;
+    margin: 4rem auto;
 }
 
 .merch-gallery
 {
     overflow: auto;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 .merch-items
@@ -262,7 +266,7 @@ p
 {
     width: 85%;
     height: 350px;
-    margin: 4em auto;
+    margin: 4rem auto;
     background-image: url(../images/discount-img.jpg);
     background-size: cover;
     background-position: center;
@@ -291,19 +295,19 @@ p
     text-transform: uppercase;
     color: #fff;
     text-shadow: 3px 3px 6px #312a26;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .discount-text a
 {
     color: #312a26;
     text-decoration: none;
-    padding: 1em;
+    padding: 1rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     background-color: rgba(255, 255,255, .5);
     display: inline-block;
-    margin-top: 1em;
+    margin-top: 1rem;
 
 }
 
@@ -312,7 +316,7 @@ p
 .reservation
 {
     width: 85%;
-    margin: 4em auto;
+    margin: 4rem auto;
     overflow: auto;
 }
 
@@ -327,11 +331,11 @@ form
     width: 49%;
     float: left;
     height: 650px;
-    margin-top: 2em;
+    margin-top: 2rem;
     margin-left: .5%;
     margin-right: .5%;
     border-radius: 5px;
-    padding: 2em;
+    padding: 2rem;
 }
 
 form label,
@@ -341,22 +345,23 @@ form textarea
 {
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    padding: 1em;
+    padding: .8rem;
     display: inline-block;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 form label
 {
-    font-weight: 700;
+    font-weight: 500;
     padding: 0;
-    margin-bottom: .5em;
+    margin-bottom: .5rem;
+    font-size: .9rem;
 }
 
 form p
 {
     text-align: center;
-    margin: 1em;
+    margin: 1rem;
     font-weight: 700;
 }
 
@@ -374,7 +379,7 @@ form p
 
 .res-time label
 {
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 form h3
@@ -402,6 +407,7 @@ form h3::after
 
 .res-agreement label
 {
+    display: inline-block;
     font-weight: 400;
 }
 
@@ -419,8 +425,8 @@ form input[type="submit"]
     background-image: url(../images/footer-img.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .footer-contents
@@ -447,8 +453,8 @@ form input[type="submit"]
     text-transform: uppercase;
     color: #fff;
     text-shadow: 3px 3px 6px #312a26;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .footer-widgets h4
@@ -476,21 +482,26 @@ form input[type="submit"]
 .footer-social
 {
     background-color: #19100f;
-    padding: 1em 7.5%;
+    padding: 1rem 7.5%;
     color: #fff;
     overflow: auto;
 }
 
 .social-widget
 {
-    width: 32.66%;
+    width: 33.33%;
     float: left;
     text-align: center;
 }
 
+.social-widget h3
+{
+    text-transform: uppercase;
+}
+
 .social-widget img
 {
-    width: 1.5em;
+    width: 1.5rem;
 }
 
 @media only screen and (max-width:768px)
@@ -509,7 +520,7 @@ form input[type="submit"]
 
     .nav ul li
     {
-        margin-left: 3em;
+        margin-left: 3rem;
     }
 
     .nav ul li:nth-child(1)
@@ -550,7 +561,7 @@ form input[type="submit"]
     .footer-widgets
     {
         width: 50%;
-        margin-bottom: 2em;
+        margin-bottom: 2rem;
         margin-right: 0;
         text-align: center;
     }
@@ -575,8 +586,8 @@ form input[type="submit"]
     {
         display: block;
         margin-left: 0;
-        margin-bottom: .5em;
-        padding: .5em;
+        margin-bottom: .5rem;
+        padding: .5rem;
         background-color: #c1c1c1;
         width: 100%;
         text-align: left;
@@ -600,28 +611,28 @@ form input[type="submit"]
     {
         width: 100%;
         margin: auto;
-        margin-bottom: 2em;
+        margin-bottom: 2rem;
     }
 
     .merch-items
     {
         width: 100%;
         margin:unset;
-        margin-bottom: 2em;
+        margin-bottom: 2rem;
     }
 
     .footer-widgets
     {
         width: 100%;
         margin: unset;
-        margin-bottom: 2em;
+        margin-bottom: 2rem;
     }
     
     .social-widget
     {
         width: 100%;
         margin: unset;
-        margin-bottom: 1.5em;
+        margin-bottom: 1.5rem;
     }
 
     .reservation
@@ -638,6 +649,6 @@ form input[type="submit"]
 
     .res-agreement label
     {
-        font-size: .7em;
+        font-size: .7rem;
     }
 }
